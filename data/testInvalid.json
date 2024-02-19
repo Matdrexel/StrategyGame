@@ -1,0 +1,850 @@
+{"battle": {
+  "competitors": [
+    {
+      "name": "Player 1",
+      "warriors": [{
+        "image": "",
+        "luck": 3,
+        "strength": 2,
+        "hp": 1,
+        "range": 6,
+        "speed": 3,
+        "defense": 4,
+        "can attack?": false,
+        "name": "Good 1",
+        "x": 1000,
+        "y": 9999,
+        "alive?": true,
+        "can move?": false,
+        "movement": 5
+      }]
+    },
+    {
+      "name": "Player 2",
+      "warriors": [{
+        "image": "",
+        "luck": 0,
+        "strength": 11,
+        "hp": 10,
+        "range": 7,
+        "speed": 12,
+        "defense": 9,
+        "can attack?": false,
+        "name": "Evil 1",
+        "x": 0,
+        "y": 0,
+        "alive?": true,
+        "can move?": false,
+        "movement": 8
+      }]
+    }
+  ],
+  "subturn": 0,
+  "stage": {
+    "width": 10,
+    "length": 10,
+    "positions": [
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      },
+      {
+        "luck": 0,
+        "strength": 0,
+        "defense": 0,
+        "range": 0,
+        "movement": 0,
+        "speed": 0
+      }
+    ]
+  },
+  "turn": 1
+}}

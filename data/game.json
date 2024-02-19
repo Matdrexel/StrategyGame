@@ -1,0 +1,854 @@
+{"battle": {
+    "competitors": [
+        {
+            "name": "Good Guys",
+            "warriors": [
+                {
+                    "image": "./data/Axe.png",
+                    "luck": 3,
+                    "strength": 12,
+                    "hp": 8,
+                    "range": 1,
+                    "speed": 10,
+                    "defense": 1,
+                    "can attack?": true,
+                    "name": "Lucia",
+                    "x": 2,
+                    "y": 4,
+                    "alive?": true,
+                    "can move?": true,
+                    "movement": 6
+                },
+                {
+                    "image": "./data/Axe.png",
+                    "luck": 1,
+                    "strength": 18,
+                    "hp": 20,
+                    "range": 1,
+                    "speed": 0,
+                    "defense": 4,
+                    "can attack?": true,
+                    "name": "Bulky",
+                    "x": 5,
+                    "y": 1,
+                    "alive?": true,
+                    "can move?": true,
+                    "movement": 3
+                },
+                {
+                    "image": "./data/Dagger.png",
+                    "luck": 6,
+                    "strength": 9,
+                    "hp": 10,
+                    "range": 4,
+                    "speed": 8,
+                    "defense": 7,
+                    "can attack?": true,
+                    "name": "Test Custom",
+                    "x": 0,
+                    "y": 0,
+                    "alive?": true,
+                    "can move?": true,
+                    "movement": 5
+                },
+                {
+                    "image": "./data/Shield.png",
+                    "luck": 13,
+                    "strength": 6,
+                    "hp": 4,
+                    "range": 7,
+                    "speed": 7,
+                    "defense": 8,
+                    "can attack?": true,
+                    "name": "Judie",
+                    "x": 4,
+                    "y": 5,
+                    "alive?": true,
+                    "can move?": true,
+                    "movement": 3
+                },
+                {
+                    "image": "./data/Bow.png",
+                    "luck": 18,
+                    "strength": 5,
+                    "hp": 30,
+                    "range": 5,
+                    "speed": 0,
+                    "defense": 0,
+                    "can attack?": true,
+                    "name": "Benji",
+                    "x": 3,
+                    "y": 0,
+                    "alive?": true,
+                    "can move?": true,
+                    "movement": 15
+                },
+                {
+                    "image": "./data/Sword.png",
+                    "luck": 9,
+                    "strength": 7,
+                    "hp": 20,
+                    "range": 1,
+                    "speed": 2,
+                    "defense": 5,
+                    "can attack?": true,
+                    "name": "Mitsi",
+                    "x": 0,
+                    "y": 5,
+                    "alive?": true,
+                    "can move?": true,
+                    "movement": 5
+                },
+                {
+                    "image": "./data/Dagger.png",
+                    "luck": 8,
+                    "strength": 7,
+                    "hp": 20,
+                    "range": 2,
+                    "speed": 4,
+                    "defense": 2,
+                    "can attack?": true,
+                    "name": "Kayla",
+                    "x": 7,
+                    "y": 8,
+                    "alive?": true,
+                    "can move?": true,
+                    "movement": 7
+                },
+                {
+                    "image": "./data/Shield.png",
+                    "luck": 25,
+                    "strength": 2,
+                    "hp": 16,
+                    "range": 3,
+                    "speed": 1,
+                    "defense": 7,
+                    "can attack?": true,
+                    "name": "Isiah",
+                    "x": 3,
+                    "y": 7,
+                    "alive?": true,
+                    "can move?": true,
+                    "movement": 10
+                }
+            ]
+        },
+        {
+            "name": "Bad Guys",
+            "warriors": [
+                {
+                    "image": "./data/Bow.png",
+                    "luck": 11,
+                    "strength": 10,
+                    "hp": 6,
+                    "range": 3,
+                    "speed": 2,
+                    "defense": 4,
+                    "can attack?": false,
+                    "name": "Agara",
+                    "x": 6,
+                    "y": 0,
+                    "alive?": true,
+                    "can move?": false,
+                    "movement": 7
+                },
+                {
+                    "image": "./data/Dagger.png",
+                    "luck": 16,
+                    "strength": 8,
+                    "hp": 20,
+                    "range": 1,
+                    "speed": 7,
+                    "defense": 3,
+                    "can attack?": false,
+                    "name": "Frazz",
+                    "x": 1,
+                    "y": 1,
+                    "alive?": true,
+                    "can move?": false,
+                    "movement": 6
+                },
+                {
+                    "image": "./data/Sword.png",
+                    "luck": 2,
+                    "strength": 9,
+                    "hp": 12,
+                    "range": 2,
+                    "speed": 5,
+                    "defense": 3,
+                    "can attack?": false,
+                    "name": "Moria",
+                    "x": 4,
+                    "y": 1,
+                    "alive?": true,
+                    "can move?": false,
+                    "movement": 5
+                },
+                {
+                    "image": "./data/Axe.png",
+                    "luck": 20,
+                    "strength": 100,
+                    "hp": 1,
+                    "range": 1,
+                    "speed": 5,
+                    "defense": 0,
+                    "can attack?": false,
+                    "name": "Johny",
+                    "x": 7,
+                    "y": 1,
+                    "alive?": true,
+                    "can move?": false,
+                    "movement": 30
+                },
+                {
+                    "image": "./data/Axe.png",
+                    "luck": 2,
+                    "strength": 13,
+                    "hp": 10,
+                    "range": 1,
+                    "speed": 9,
+                    "defense": 0,
+                    "can attack?": false,
+                    "name": "Enemy 1",
+                    "x": 2,
+                    "y": 2,
+                    "alive?": true,
+                    "can move?": false,
+                    "movement": 5
+                },
+                {
+                    "image": "./data/Axe.png",
+                    "luck": 0,
+                    "strength": 19,
+                    "hp": 22,
+                    "range": 1,
+                    "speed": 0,
+                    "defense": 3,
+                    "can attack?": false,
+                    "name": "Enemy 2",
+                    "x": 5,
+                    "y": 2,
+                    "alive?": true,
+                    "can move?": false,
+                    "movement": 2
+                },
+                {
+                    "image": "./data/Dagger.png",
+                    "luck": 5,
+                    "strength": 10,
+                    "hp": 12,
+                    "range": 3,
+                    "speed": 7,
+                    "defense": 6,
+                    "can attack?": false,
+                    "name": "Enemy 3",
+                    "x": 0,
+                    "y": 3,
+                    "alive?": true,
+                    "can move?": false,
+                    "movement": 4
+                },
+                {
+                    "image": "./data/Shield.png",
+                    "luck": 12,
+                    "strength": 7,
+                    "hp": 6,
+                    "range": 6,
+                    "speed": 6,
+                    "defense": 7,
+                    "can attack?": false,
+                    "name": "Enemy 4",
+                    "x": 3,
+                    "y": 3,
+                    "alive?": true,
+                    "can move?": false,
+                    "movement": 2
+                }
+            ]
+        }
+    ],
+    "subturn": 0,
+    "stage": {
+        "width": 8,
+        "length": 9,
+        "positions": [
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            },
+            {
+                "luck": 0,
+                "strength": 0,
+                "defense": 0,
+                "range": 0,
+                "movement": 0,
+                "speed": 0
+            }
+        ]
+    },
+    "turn": 1
+}}
